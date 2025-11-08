@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My School</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #006699;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #004d66;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #003366;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Responsive adjustments */
+        @media(max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+            footer {
+                position: relative;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My School</h1>
+        <p>Building a brighter future</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#programs">Programs</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Our school is dedicated to providing quality education and fostering a nurturing environment for all students. We offer a variety of programs to help students excel academically and personally.</p>
+        </section>
+        <section id="admissions">
+            <h2>Admissions</h2>
+            <p>We welcome new students! Please contact our admissions office for more information on enrollment procedures and requirements.</p>
+        </section>
+        <section id="programs">
+            <h2>Our Programs</h2>
+            <ul>
+                <li>Primary Education</li>
+                <li>Secondary Education</li>
+                <li>Science & Technology</li>
+                <li>Arts & Literature</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Address: 123 School Lane, City, Country</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: info@yourschool.com</p>
+        </section>
+    </main>
+    <footer>
+        &copy; 2024 My School. All rights reserved.
+    </footer>
+</body>
+</html>
